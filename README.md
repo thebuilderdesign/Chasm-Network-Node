@@ -1,5 +1,39 @@
+### Project Information
+
+- Twitter : [@ChasmNetwork](https://x.com/ChasmNetwork)
+- Website : [Visit](https://chasm.net)
+
+## Node Info
+
+- Need VPS, Requirements are mentioned below, You can't run this node on Gitpod/Github Codespace
+- You can buy VPS from PQ Hosting/Contabo/ OVHCloud
+- This node is Incentivised
+
+### Min Requirements
+
+| **Requirement**        | **Details**              |
+|------------------------|--------------------------|
+| **Operating System**   | Linux (linux/amd64, linux/arm64) |
+| **vCPU**               | 1                        |
+| **RAM**                | 1GB                       |
+| **Disk Space**         | 20GB                     |
+| **IP Address**         | Static IP                |
+
+
+### Recommended Server Requirements
+
+| **Requirement**        | **Details**              |
+|------------------------|--------------------------|
+| **Operating System**   | Ubuntu (20.04 LTS onwards) |
+| **vCPU**               | 2                        |
+| **RAM**                | 4GB                      |
+| **Disk Space**         | 50GB SSD                 |
+| **IP Address**         | Static IP                |
+
+
 ---
 
+### Prerequisites
 
 - Visit : https://console.groq.com/keys (If it is not working in default, try it on Incognito tab)
 - Copy the API key after signing in
@@ -17,7 +51,8 @@
 - Click on `Show Authtoken` button in the corner, then copy the command and save it somewhere else for now
 
 ---
-Use these commands one by one
+### Installation
+
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
@@ -105,3 +140,8 @@ curl -X POST \
      $WEBHOOK_URL
 ```
 - Done !!
+---
+### Node Status
+
+- You can now check your node status here : [Visit](https://scout.chasm.net/dashboard)
+- If you see Yellow or Green, it means your node is working properly, also your yellow dot will be turned into green dot after 1 or 2 hrs
